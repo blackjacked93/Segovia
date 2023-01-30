@@ -1,0 +1,93 @@
+/* estilos index */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 3%;
+    text-align:center;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color:blue;
+    letter-spacing: 1.5px;
+    padding: auto;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20 px;
+    color: black;
+    letter-spacing: 1.5;
+    padding: auto;
+}
+
+#logo{
+    float: left;
+    width: 8.4%;
+
+}
+
+.menu{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(20, 110, 194)
+}
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 18px 22px;
+    color: black;
+
+}
+#inicio{
+    float: right;
+}
+.menu a:hover{
+    background-color:rgb(0, 170, 255);
+    color: black;
+}
+
+body{
+    background-image: url(fdentista.jpg);
+}
+
+
+.dentistas img{
+
+    width: 50%;
+    height: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.footer table{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    padding: 2%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2 px;
+    overflow: hidden;
+    background-color: rgb(20, 110, 194);
+    
+
+}
