@@ -1,0 +1,53 @@
+   <div class="container-fluid">
+        <div class="card text-center">
+            <div class="card-header">
+              Lista de reactivos.
+            </div>
+            <div class="card-body">
+                <a class="btn btn-primary" href="add" role="button"><i class="fas fa-file" aria-hidden="true>"></i>NUEVA</a>
+                <hr>
+
+                <table class="table table-striped table-hover table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col"> No</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">opcion_1</th>
+                        <th scope="col">opcion_2</th>
+                        <th scope="col">opcion_3</th>
+                        <th scope="col">correcta</th>
+                        <th scope="col">idCategoria</th>
+                        <th scope="col">Operaciones</th>
+                      </tr>
+
+
+                    </thead>
+                    <tbody>
+                      {{#each reactivos}}
+                      
+                      <tr>
+                        <th scope="row">{{id}}</th>
+                        <td>{{nombre}}</td>
+                        <td>{{opcion_1}}</td>
+                        <td>{{opcion_2}}</td>
+                        <td>{{opcion_3}}</td>
+                        <td>{{correcta}}</td>
+                         <td>{{idCategoria}}</td>
+                      
+            
+                        <td>  <a class="btn btn-primary" href="#" role="button"><i class="fas fa-pencil"></i>EDITAR</a>  <a class="btn btn-primary" href="/preguntas/eliminar/{{id}}" role="button"><i class="fas fa-trash"></i>Eliminar</a></td>            
+                      </tr>
+                      {{/each}}
+
+
+                      
+                    </tbody>
+                  </table>
+
+
+            </div>
+            <div class="card-footer text-muted">
+              Total de registros: 3.
+            </div>
+          </div>
+    </div>

@@ -1,0 +1,42 @@
+<div class="container p-4">
+    <div class="row">
+        <form method="post" action="/preguntas/add" >
+         <select class="form-control" name="idCategoria" required>
+    <option value="id">Seleccione una categoria</option>
+    {{#each categorias}}
+
+    <option value="{{id}}">{{nombre}}</option>
+{{/each}}
+  </select>   
+          <div class="col-mb-3">
+            <label for="nombre" class="form-label">NOMBRE</label>
+            <input type="text" class="form-control" name="nombre" placeholder="Nombre categoria" autofocus>
+        </div>
+          <div class="col-mb-3">
+            <label for="opcion_1" class="form-label">opcion_1</label>
+            <input type="text" class="form-control" name="opcion_1" placeholder="Nombre categoria" autofocus>
+        </div>
+          <div class="col-mb-3">
+            <label for="opcion_2" class="form-label">opcion_2</label>
+            <input type="text" class="form-control" name="opcion_2" placeholder="Nombre categoria" autofocus>
+        </div>
+          <div class="col-mb-3">
+            <label for="opcion_3" class="form-label">opcion_3</label>
+            <input type="text" class="form-control" name="opcion_3" placeholder="Nombre categoria" autofocus>
+        </div>
+          <div class="col-mb-3">
+            <label for="correcta" class="form-label">correcta</label>
+            <input type="text" class="form-control" name="correcta" placeholder="Nombre categoria" autofocus>
+        </div>
+ 
+        
+        
+
+<div class="col-mb-3">
+    <br>
+    <button class="btn btn-success">Agregar Reactivo</button>
+</div>
+
+        </form>
+    </div>
+</div>
